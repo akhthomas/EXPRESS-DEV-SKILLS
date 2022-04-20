@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@200&family=Bebas+Neue&display=swap');
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
-  
+  color: #990000;
+  font-family:'Anek Odia', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+
 }
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+}
+
