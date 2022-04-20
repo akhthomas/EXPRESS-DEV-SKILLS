@@ -8,7 +8,8 @@ module.exports = {
 
 function index(req, res) {
     res.render('skills/index', {
-        skills: Skills.getAll()
+        skills: Skills.getAll(),
+        time: req.time
     });
 }
 
