@@ -1,7 +1,7 @@
-const todos = [
-    {id: 125223, todo: 'Feed Dogs', done: true},
-    {id: 127904, todo: 'Learn Express', done: false},
-    {id: 139608, todo: 'Buy Milk', done: false}
+const skills = [
+    {id: 125223, skills: 'Feed Dogs', done: true},
+    {id: 127904, skills: 'Learn Express', done: false},
+    {id: 139608, skills: 'Buy Milk', done: false}
 ];
 
 module.exports = {
