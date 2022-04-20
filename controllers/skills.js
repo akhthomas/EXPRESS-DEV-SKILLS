@@ -4,11 +4,11 @@ const Skills = require('../models/skill');
 module.exports = {
     index,
     show,
-    new: newTodo
+    new: newSkill
 };
 
-function newTodo(req, res) {
-    res.render('todos/new');
+function newSkill(req, res) {
+    res.render('skills/new');
 }
 
 function index(req, res) {
