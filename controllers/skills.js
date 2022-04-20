@@ -1,5 +1,5 @@
 // controllers/skills.js ??
-const Skills = require('../models/skills');
+const Skills = require('../models/skill');
 
 module.exports = {
     index
