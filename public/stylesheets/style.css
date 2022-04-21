@@ -30,3 +30,9 @@ h1 {
 li {
   list-style: none;
 }
+
+button {
+  background-color: transparent;
+  border: 1px dotted #000;
+  text-align: center;
+}
