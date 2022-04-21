@@ -18,3 +18,15 @@ h1 {
   font-size: 30px;
 }
 
+.delete-form {
+  display: inline-block;
+  margin-right: 10px;
+}
+	
+.delete-form button {
+  color: #990000;
+}
+	
+li {
+  list-style: none;
+}
