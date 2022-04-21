@@ -6,7 +6,8 @@ const skills = [
 
 module.exports = {
     getAll,
-    getOne
+    getOne,
+    create
 };
 
 function getOne(id) {
@@ -16,4 +17,10 @@ function getOne(id) {
 
 function getAll() {
     return skills;
+}
+
+function create(skill) {
+    skill.id = Date.now() % 1000000;
+    skill.done = false;
+    skills.push(skill);
 }

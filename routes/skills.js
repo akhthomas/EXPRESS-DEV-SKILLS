@@ -1,4 +1,5 @@
 var express = require('express');
+const skills = require('../controllers/skills');
 var router = express.Router();
 
 /* GET users listing. */
@@ -15,6 +16,8 @@ router.get('/', skillsCtrl.index);
 router.get('/new', skillsCtrl.new);
 // GET /skills/:id
 router.get('/:id', skillsCtrl.show);
+// POST route
+router.post('/', skillsCtrl.create);
 
 module.exports = router;
 
